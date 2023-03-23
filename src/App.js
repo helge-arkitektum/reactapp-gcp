@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <div>
-        <button onClick={getProductsData1}>Ikke i bruk - voffvoffvoff</button>
+        <button onClick={getProductsData1}>Ikke i bruk - voffvoffvoffvoff</button>
       </div>
       <div>
         <button onClick={getProductsData2}>Get product - vis</button>
