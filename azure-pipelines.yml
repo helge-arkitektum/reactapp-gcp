@@ -45,4 +45,12 @@ stages:
         azureSubscription: 'Svc-kompetanse'
         Action: 'Stop Azure App Service'
         WebAppName: 'helgeapp-20230323-1'
+    - task: AzureAppServiceManage@0
+      inputs:
+        #azureSubscription: # string. Alias: ConnectedServiceName. Required. Azure subscription. 
+        #Action: 'Swap Slots' # 'Swap Slots' | 'Start Azure App Service' | 'Stop Azure App Service' | 'Restart Azure App Service' | 'Start Swap With Preview' | 'Complete Swap' | 'Cancel Swap' | 'Delete Slot' | 'Install Extensions' | 'Enable Continuous Monitoring' | 'Start all continuous webjobs' | 'Stop all continuous webjobs'. Action. Default: Swap Slots.
+        #WebAppName: # string. Required. App Service name. 
+        azureSubscription: 'Svc-kompetanse'
+        Action: 'Start Azure App Service'
+        WebAppName: 'helgeapp-20230323-1'
 
