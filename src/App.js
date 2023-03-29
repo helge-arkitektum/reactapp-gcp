@@ -14,7 +14,7 @@ function App() {
         <button onClick={getProductsData1}>Ikke i bruk - WHAAAAAT</button>
       </div>
       <div>
-        <button onClick={getProductsData2}>Get product - vis</button>
+        <button onClick={getProductsData2}>Get product - vis alle</button>
         {renderProducts(productsData)}
       </div>
     </div>
