@@ -50,7 +50,7 @@ on:
 
 env:
   PROJECT_ID: react-github-381912 # TODO: update Google Cloud project id
-#  GAR_LOCATION: YOUR_GAR_LOCATION # TODO: update Artifact Registry location
+  GAR_LOCATION: europe-north1 # TODO: update Artifact Registry location
   SERVICE: my-react # TODO: update Cloud Run service name
   REGION: europe-north1 # TODO: update Cloud Run service region
 
