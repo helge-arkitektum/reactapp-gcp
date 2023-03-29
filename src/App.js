@@ -11,10 +11,10 @@ function App() {
   return (
     <div>
       <div>
-        <button onClick={getProductsData1}>Ikke i bruk - WHAAAAAT</button>
+        <button onClick={getProductsData1}>Ikke i bruk</button>
       </div>
       <div>
-        <button onClick={getProductsData2}>Get product - vis alle</button>
+        <button onClick={getProductsData2}>Vis produkter - alle</button>
         {renderProducts(productsData)}
       </div>
     </div>
